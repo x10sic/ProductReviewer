@@ -1,0 +1,5 @@
+PR-2 (Online product viewer)
+
+Description: 
+
+Interface consist of a drop down list, as the user selects any item from a list , different images of the items with their product code, price and other specifications shown with each image

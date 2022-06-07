@@ -1,0 +1,166 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+.side {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  width: 100%;
+  padding: 8px;
+  height:20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#" onclick="history.go(-1)">HOME</a>
+</div>
+
+<div class="row">
+
+  <div class="side">
+    <h2>iphone 13</h2>
+    <div class="fakeimg" style="height:200px"><img src="images/13.jpg" height="200px" width="165px"></div>
+  </div>
+
+  <div class="main">
+    <h4>Rs.75000</h4>
+    <h5>Description..</h5>
+    <pre>
+        15 cm (6.1-inch) Super Retina XDR display
+        Cinematic mode adds shallow depth of field and shifts focus automatically in your videos
+        Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; 
+        Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording
+        12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording
+        A15 Bionic chip for lightning-fast performance
+        Up to 19 hours of video playback
+        Durable design with Ceramic Shield
+        Industry-leading IP68 water resistance
+        iOS 15 packs new features to do more with iPhone than ever before
+        Supports MagSafe accessories for easy attachment and faster wireless charging</pre>
+  </div> 
+
+  
+</div>
+
+<div class="row">
+
+  <div class="side">
+    <h2>iphone 12</h2>
+    <div class="fakeimg" style="height:200px"><img src="images/12.jpg" height="200px" width="150px"></div>
+  </div>
+  <div class="main">
+    <br><br><br>
+    <h4>Rs.50000</h4>
+    <h5>Description..</h5>
+    <pre>
+        64 GB ROM
+        15.49 cm (6.1 inch) Super Retina XDR Display
+        12MP + 12MP | 12MP Front Camera
+        A14 Bionic Chip with Next Generation Neural Engine Processor
+        Ceramic Shield
+        Industry-leading IP68 Water Resistance
+        All Screen OLED Display
+        12MP TrueDepth Front Camera with Night Mode, 4K Dolby Vision HDR Recording </pre>
+  </div> 
+
+</div>
+
+<div class="row">
+
+    <div class="side">
+      <h2>iphone 11</h2>
+      <div class="fakeimg" style="height:200px"><img src="images/11.jpg" height="200px" width="150px"></div>
+    </div>
+    <div class="main">
+      <br><br><br>
+      <h4>Rs.38000</h4>
+      <h5>Description..</h5>
+      <pre>
+        6.1-inch (15.5 cm diagonal) Liquid Retina HD LCD display
+        Water and dust resistant (2 meters for up to 30 minutes, IP68)
+        Dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, 
+        Portrait mode, and 4K video up to 60fps
+        12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo
+        Face ID for secure authentication
+        A13 Bionic chip with third-generation Neural Engine
+        Fast-charge capable
+        Wireless charging</pre>
+    </div> 
+  
+  </div>
+
+</body>
+</html>
